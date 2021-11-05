@@ -9,7 +9,7 @@
  * @link      http://www.opensource-socialnetwork.org/licence
  */
 $en = array(
-		'singupprofilephoto' => 'Select Profile Picture',
+		'singupprofilephoto' => 'Select Profile Picture (Max Size : %s MB)',
 		'singupprofilephoto:error:matching' => 'Invalid profile picture added. Please make sure you added only image file.',
 );
 ossn_register_languages('en', $en); 
