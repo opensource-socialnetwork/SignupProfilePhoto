@@ -16,8 +16,8 @@ function signup_profile_photo_init() {
 				ossn_register_callback('user', 'created', 'signup_profile_photo_set');
 
 				ossn_extend_view('forms/signup', 'signup_profile_photo/input');
-				ossn_extend_view('js/ossn.site.public', 'signup_profile_photo/js');
 		}
+		ossn_extend_view('js/ossn.site.public', 'signup_profile_photo/js');
 }
 function signup_profile_photo_set($callback, $type, $params) {
 		if(isset($params['guid'])) {
